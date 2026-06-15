@@ -6,6 +6,7 @@ import ReviewBox from "@/components/ReviewBox";
 import Video from "@/components/VideoSection";
 import { TripType } from "@/constants/PlansDetails";
 import { ReviewsDetails } from "@/constants/ReviewsDetails";
+import { assetPath } from "@/lib/assetPath";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -78,7 +79,7 @@ export default function Home() {
         {/* Reviews */}
         <section className="relative">
           <Image
-            src="/assets/images/reviews1.jpg"
+            src={assetPath("/assets/images/reviews1.jpg")}
             width="0"
             height="0"
             sizes="100vw"
@@ -97,7 +98,7 @@ export default function Home() {
             <div className="flex items-center justify-center w-[80%] sm:w-[90%]">
               <button onClick={goLeft}>
                 <Image
-                  src={"/assets/svg/backButton.svg"}
+                  src={assetPath("/assets/svg/backButton.svg")}
                   width={0}
                   height={0}
                   alt="BackButton"
@@ -122,7 +123,7 @@ export default function Home() {
               </div>
               <button onClick={goRight}>
                 <Image
-                  src={"/assets/svg/nextButton.svg"}
+                  src={assetPath("/assets/svg/nextButton.svg")}
                   width={0}
                   height={0}
                   alt="NextButton"

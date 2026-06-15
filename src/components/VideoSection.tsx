@@ -1,3 +1,5 @@
+import { assetPath } from "@/lib/assetPath";
+
 interface Props {
   src: string;
   title: string;
@@ -14,7 +16,7 @@ export default function Video({ src, title, subTitle }: Props) {
           loop
           className="absolute top-0 -z-10 w-full h-full object-cover"
         >
-          <source src={src} type="video/mp4" />
+          <source src={assetPath(`/${src}`)} type="video/mp4" />
         </video>
         <div className="text-center text-white space-y-4 px-4 w-full absolute top-1/2 left-1/2 -translate-x-1/2">
           <div className="text-4xl sm:text-2xl">{title}</div>

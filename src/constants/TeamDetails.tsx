@@ -1,31 +1,34 @@
+const BASE_PATH =
+  process.env.NODE_ENV === "production" ? "/himanshi-travel-task" : "";
+
 export const Teams = [
   {
-    img: "/assets/images/teams/a.jpg",
+    img: `${BASE_PATH}/assets/images/teams/a.jpg`,
     title: "Alice Carter",
     role: "CEO & Founder",
   },
   {
-    img: "/assets/images/teams/b.jpg",
+    img: `${BASE_PATH}/assets/images/teams/b.jpg`,
     title: "Marie Dumbrell",
     role: "CEO",
   },
   {
-    img: "/assets/images/teams/c.jpg",
+    img: `${BASE_PATH}/assets/images/teams/c.jpg`,
     title: "John Wick",
     role: "Office Manager",
   },
   {
-    img: "/assets/images/teams/d.jpg",
+    img: `${BASE_PATH}/assets/images/teams/d.jpg`,
     title: "Peter Dsouza",
     role: "Technical Head",
   },
   {
-    img: "/assets/images/teams/e.jpg",
+    img: `${BASE_PATH}/assets/images/teams/e.jpg`,
     title: "Erik Walt",
     role: "HR",
   },
   {
-    img: "/assets/images/teams/f.jpg",
+    img: `${BASE_PATH}/assets/images/teams/f.jpg`,
     title: "Emily James",
     role: "Accounting Manager",
   },

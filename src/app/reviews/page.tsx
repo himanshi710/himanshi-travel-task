@@ -6,6 +6,7 @@ import NeedAnything from "@/components/NeedAnything";
 import EndTemplate from "@/components/EndTemplate";
 import { ReviewsDetails } from "@/constants/ReviewsDetails";
 import ReviewBox from "@/components/ReviewBox";
+import { assetPath } from "@/lib/assetPath";
 import Image from "next/image";
 
 const Video = dynamic(() => import("@/components/VideoSection"), {
@@ -42,7 +43,7 @@ export default function Reviews() {
             <div className="flex items-center justify-center w-[80%] sm:w-[100%]">
               <button onClick={goLeft}>
                 <Image
-                  src={"/assets/svg/backButton.svg"}
+                  src={assetPath("/assets/svg/backButton.svg")}
                   width={0}
                   height={0}
                   alt="BackButton"
@@ -67,7 +68,7 @@ export default function Reviews() {
               </div>
               <button onClick={goRight}>
                 <Image
-                  src={"/assets/svg/nextButton.svg"}
+                  src={assetPath("/assets/svg/nextButton.svg")}
                   width={0}
                   height={0}
                   alt="NextButton"
