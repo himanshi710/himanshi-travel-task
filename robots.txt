@@ -1,0 +1,5 @@
+User-Agent: *
+Allow: /
+Disallow: /admin
+
+Sitemap: https://travel-in-a-blink.vercel.app/sitemap.xml
