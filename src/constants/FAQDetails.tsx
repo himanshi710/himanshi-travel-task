@@ -3,7 +3,7 @@ export const FAQDetails = [
     section: "Services",
     content: [
       {
-        question: "What is Travel in a Blink?",
+        question: "What is Himanshi Travels?",
         answer:
           "What we enjoy most is getting to know you on a personal level to make the best recommendations. We are a full-service luxury travel agency and can help you with hotels, tours, villa rentals, yachts, flights, private aviation, destination weddings, and so much more!",
       },
@@ -29,7 +29,7 @@ export const FAQDetails = [
     content: [
       {
         question: "Who am I paying?",
-        answer: "You are going to pay directly to Travel in a Blink.",
+        answer: "You are going to pay directly to Himanshi Travels.",
       },
       {
         question: "What forms of payment do you accept?",

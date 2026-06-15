@@ -27,7 +27,7 @@ export default function About() {
           </div>
           <div className="border-b-4 border-purple-950 w-[30%] md:w-[50%] sm:w-[70%]" />
           <div className="text-xl text-center leading-8 w-[60%] md:w-[80%] sm:w-[80%]">
-            We at Travel in a Blink, Lorem ipsum dolor, sit amet consectetur
+            We at Himanshi Travels, Lorem ipsum dolor, sit amet consectetur
             adipisicing elit. Distinctio quasi, provident debitis voluptate
             minima sequi quam voluptas. Quia quam error minus libero quas!
             Laboriosam voluptate soluta iusto laborum velit vitae modi totam

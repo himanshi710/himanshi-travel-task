@@ -51,7 +51,7 @@ export default function Navbar() {
         </div>
 
         <div className="text-center font-bold text-4xl w-[24%] border-y-Border-slate border-y-2 border-x-0 rounded-tr-3xl rounded-bl-3xl pt-2 px-4 sm:text-3xl sm:w-auto">
-          <Link href="/">Travel in a Blink</Link>
+          <Link href="/">Himanshi Travels</Link>
         </div>
 
         <div

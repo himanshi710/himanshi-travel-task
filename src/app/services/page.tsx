@@ -25,7 +25,7 @@ export default function Services() {
           </div>
           <div className="border-b-4 border-purple-950 w-[30%] md:w-[50%] sm:w-[70%]" />
           <div className="text-xl text-center leading-8 w-[60%] md:w-[80%] sm:w-[80%]">
-            At Travel in a Blink, we specialize in creating tailored travel
+            At Himanshi Travels, we specialize in creating tailored travel
             experiences to meet each client&apos;s unique needs. From
             destination discovery to personalized itineraries and seamless
             booking, we ensure every journey is unforgettable and worry-free.

@@ -37,7 +37,7 @@ export default function Home() {
         {/* Short Welcome Msg */}
         <section className="flex flex-col items-center space-y-10 w-full py-28 bg-violet-400">
           <div className="text-5xl sm:text-3xl sm:px-10 text-center">
-            Welcome to Travel in a Blink
+            Welcome to Himanshi Travels
           </div>
           <div className="text-xl text-center leading-8 w-[60%] md:w-[80%] sm:w-[80%]">
             We believe in creating journeys that are as unique as you are. Our

@@ -7,21 +7,21 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://travel-in-a-blink.vercel.app"),
 
   title: {
-    default: "Travel in a Blink",
-    template: `%s | Travel in a Blink`,
+    default: "Himanshi Travels",
+    template: `%s | Himanshi Travels`,
   },
   description: "Your Dream Destination is Just a Blink Away!",
 
   openGraph: {
-    title: "Travel in a Blink",
+    title: "Himanshi Travels",
     description: "Your Dream Destination is Just a Blink Away!",
     images: ["/assets/images/cover-landscape-compress.jpg"],
   },
 
   keywords: [
-    "Travel in a Blink",
-    "Travel in a blink",
-    "Travel in a blink website",
+    "Himanshi Travels",
+    "Himanshi travels",
+    "Himanshi travels website",
     "Travelling website",
     "Travel Agency",
     "Travel Agency Website",
